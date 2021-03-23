@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>New_time_radio</name>
+   <tag></tag>
+   <elementGuidId>f65cbeff-b97c-48a2-9be9-2a418360c9bc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/ngb-modal-window[1]/div[1]/div[1]/app-change-inspector[1]/div[2]/div[1]/form[1]/div[1]/div[2]/div[1]/label[1]/div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Tests" time="174.958" tests="2" failures="0" errors="0">
+   <testsuite name="Tests" tests="2" failures="0" errors="0" time="174.958" timestamp="2020-10-21 18:20:39" hostname="Bhatt - 192.168.1.5" id="Test Suites/Tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Bhatt\\Katalon Studio\\Boodskapper_Web\\Reports\\20201021_182032\\Tests\\20201021_182032"/>
+         <property name="logFiles" value="C:\\Users\\Bhatt\\Katalon Studio\\Boodskapper_Web\\Reports\\20201021_182032\\Tests\\20201021_182032\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Bhatt - 192.168.1.5"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.2.205"/>
+         <property name="browser" value="Chrome 86.0.4240.111"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="fa91143f7a3c4dd3ce772bed2e48090e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Add_Inpection_Physical" time="84.76" classname="Test Cases/Add_Inpection_Physical" status="PASSED">
+         <system-out><![CDATA[2020-10-21 18:20:40 - [TEST_CASE][PASSED] - Test Cases/Add_Inpection_Physical: Test Cases/Add_Inpection_Physical
+
+2020-10-21 18:20:41 - [TEST_STEP][PASSED] - now = Date().format("MM/dd/yyyy"): null
+
+2020-10-21 18:20:41 - [TEST_STEP][PASSED] - println(now = $now): null
+
+2020-10-21 18:20:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-21 18:20:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-21 18:20:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-21 18:20:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-21 18:20:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-10-21 18:20:49 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-21 18:20:49 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://development.boodskapper.com/login' successfully
+
+2020-10-21 18:21:07 - [MESSAGE][PASSED] - Navigate to 'https://development.boodskapper.com/login' successfully
+
+2020-10-21 18:21:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_BoodsKapper/input_Customer Login_email"), Inspector_username): Text 'jeff.nelson@dhantx.com' is set on object 'Object Repository/Page_BoodsKapper/input_Customer Login_email'
+
+2020-10-21 18:21:08 - [MESSAGE][PASSED] - Text 'jeff.nelson@dhantx.com' is set on object 'Object Repository/Page_BoodsKapper/input_Customer Login_email'
+
+2020-10-21 18:21:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_BoodsKapper/input_Customer Login_password"), Inspector_password): Text 'Bk@12345' is set on object 'Object Repository/Page_BoodsKapper/input_Customer Login_password'
+
+2020-10-21 18:21:09 - [MESSAGE][PASSED] - Text 'Bk@12345' is set on object 'Object Repository/Page_BoodsKapper/input_Customer Login_password'
+
+2020-10-21 18:21:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_BoodsKapper/button_Login")): Object: 'Object Repository/Page_BoodsKapper/button_Login' is clicked on
+
+2020-10-21 18:21:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BoodsKapper/button_Login' is clicked on
+
+2020-10-21 18:21:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_BoodsKapper/a_Inspections Dashboard")): Object: 'Object Repository/Page_BoodsKapper/a_Inspections Dashboard' is clicked on
+
+2020-10-21 18:21:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BoodsKapper/a_Inspections Dashboard' is clicked on
+
+2020-10-21 18:21:17 - [TEST_STEP][PASSED] - switchToWindowTitle("Inspections Dashboard"): Switched to window with title: 'Inspections Dashboard'
+
+2020-10-21 18:21:19 - [MESSAGE][PASSED] - Switched to window with title: 'Inspections Dashboard'
+
+2020-10-21 18:21:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/a_Add Inspection")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/a_Add Inspection' is clicked on
+
+2020-10-21 18:21:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/a_Add Inspection' is clicked on
+
+2020-10-21 18:21:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931' is clicked on
+
+2020-10-21 18:21:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931' is clicked on
+
+2020-10-21 18:21:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931"), findTestData("Inspection_Data").getValue(1, 2)): Keys 'poonamcl@yopmail.com' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931'
+
+2020-10-21 18:21:22 - [MESSAGE][PASSED] - Keys 'poonamcl@yopmail.com' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931'
+
+2020-10-21 18:21:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931'
+
+2020-10-21 18:21:23 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931'
+
+2020-10-21 18:21:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Landlord")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord' is clicked on
+
+2020-10-21 18:21:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord' is clicked on
+
+2020-10-21 18:21:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Landlord"), findTestData("Inspection_Data").getValue(2, 2)): Keys 'poonamll@yopmail.com' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:21:25 - [MESSAGE][PASSED] - Keys 'poonamll@yopmail.com' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:21:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:21:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:21:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Landlord"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:21:26 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:21:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:21:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:21:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Landlord"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:21:28 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:21:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:21:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:21:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Landlord"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:21:29 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:21:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Unit_Address")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address' is clicked on
+
+2020-10-21 18:21:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address' is clicked on
+
+2020-10-21 18:21:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Unit_Address"), findTestData("Inspection_Data").getValue(4, 2)): Keys '4430' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address'
+
+2020-10-21 18:21:30 - [MESSAGE][PASSED] - Keys '4430' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address'
+
+2020-10-21 18:21:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:21:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:21:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Unit_Address"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address'
+
+2020-10-21 18:21:32 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address'
+
+2020-10-21 18:21:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:21:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:21:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Unit_Address"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address'
+
+2020-10-21 18:21:33 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address'
+
+2020-10-21 18:21:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Select_InspectionType"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Select_InspectionType' is clicked on
+
+2020-10-21 18:21:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Select_InspectionType' is clicked on
+
+2020-10-21 18:21:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:21:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:21:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/span_Housekeeping"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/span_Housekeeping' is clicked on
+
+2020-10-21 18:21:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/span_Housekeeping' is clicked on
+
+2020-10-21 18:21:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:21:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:21:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Method_listbox")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Method_listbox' is clicked on
+
+2020-10-21 18:21:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Method_listbox' is clicked on
+
+2020-10-21 18:21:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Physical_Method")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Physical_Method' is clicked on
+
+2020-10-21 18:21:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Physical_Method' is clicked on
+
+2020-10-21 18:21:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:21:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:21:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Inspections Dashboard/Inspection_Popup/From_date"), now): Text '10/21/2020' is set on object 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/From_date'
+
+2020-10-21 18:21:40 - [MESSAGE][PASSED] - Text '10/21/2020' is set on object 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/From_date'
+
+2020-10-21 18:21:40 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Inspections Dashboard/Inspection_Popup/To_date"), now): Text '10/21/2020' is set on object 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/To_date'
+
+2020-10-21 18:21:41 - [MESSAGE][PASSED] - Text '10/21/2020' is set on object 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/To_date'
+
+2020-10-21 18:21:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Anytime_Radio")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Anytime_Radio' is clicked on
+
+2020-10-21 18:21:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Anytime_Radio' is clicked on
+
+2020-10-21 18:21:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Propose_Time_Button")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Propose_Time_Button' is clicked on
+
+2020-10-21 18:21:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Propose_Time_Button' is clicked on
+
+2020-10-21 18:21:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/TimeSlot_Radio")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/TimeSlot_Radio' is clicked on
+
+2020-10-21 18:21:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/TimeSlot_Radio' is clicked on
+
+2020-10-21 18:21:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Create_Button")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Create_Button' is clicked on
+
+2020-10-21 18:21:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Create_Button' is clicked on
+
+2020-10-21 18:21:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-21 18:21:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-21 18:21:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Date_Filter"), now): Keys '10/21/2020' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Date_Filter'
+
+2020-10-21 18:21:51 - [MESSAGE][PASSED] - Keys '10/21/2020' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Date_Filter'
+
+2020-10-21 18:21:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-21 18:21:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-21 18:21:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Unit_Address_Filter"), findTestData("Inspection_Data").getValue(4, 2)): Keys '4430' sent to object: 'Object Repository/Page_Inspections Dashboard/Unit_Address_Filter'
+
+2020-10-21 18:21:59 - [MESSAGE][PASSED] - Keys '4430' sent to object: 'Object Repository/Page_Inspections Dashboard/Unit_Address_Filter'
+
+2020-10-21 18:21:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Inspections Dashboard/Address_Field"), findTestData("Inspection_Data").getValue(5, 2)): Actual text and expected text of test object 'Object Repository/Page_Inspections Dashboard/Address_Field' are matched.
+
+2020-10-21 18:22:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Inspections Dashboard/Address_Field' are matched.
+
+2020-10-21 18:22:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-10-21 18:22:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-10-21 18:22:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-21 18:22:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add_Inpection_Virtual" time="80.417" classname="Test Cases/Add_Inpection_Virtual" status="PASSED">
+         <system-out><![CDATA[2020-10-21 18:22:05 - [TEST_CASE][PASSED] - Test Cases/Add_Inpection_Virtual: Test Cases/Add_Inpection_Virtual
+
+2020-10-21 18:22:05 - [TEST_STEP][PASSED] - now = Date().format("MM/dd/yyyy"): null
+
+2020-10-21 18:22:05 - [TEST_STEP][PASSED] - println(now = $now): null
+
+2020-10-21 18:22:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-21 18:22:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-21 18:22:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-21 18:22:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-21 18:22:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-10-21 18:22:11 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-21 18:22:11 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://development.boodskapper.com/login' successfully
+
+2020-10-21 18:22:30 - [MESSAGE][PASSED] - Navigate to 'https://development.boodskapper.com/login' successfully
+
+2020-10-21 18:22:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_BoodsKapper/input_Customer Login_email"), Inspector_username): Text 'jeff.nelson@dhantx.com' is set on object 'Object Repository/Page_BoodsKapper/input_Customer Login_email'
+
+2020-10-21 18:22:31 - [MESSAGE][PASSED] - Text 'jeff.nelson@dhantx.com' is set on object 'Object Repository/Page_BoodsKapper/input_Customer Login_email'
+
+2020-10-21 18:22:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_BoodsKapper/input_Customer Login_password"), Inspector_password): Text 'Bk@12345' is set on object 'Object Repository/Page_BoodsKapper/input_Customer Login_password'
+
+2020-10-21 18:22:32 - [MESSAGE][PASSED] - Text 'Bk@12345' is set on object 'Object Repository/Page_BoodsKapper/input_Customer Login_password'
+
+2020-10-21 18:22:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_BoodsKapper/button_Login")): Object: 'Object Repository/Page_BoodsKapper/button_Login' is clicked on
+
+2020-10-21 18:22:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BoodsKapper/button_Login' is clicked on
+
+2020-10-21 18:22:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_BoodsKapper/a_Inspections Dashboard")): Object: 'Object Repository/Page_BoodsKapper/a_Inspections Dashboard' is clicked on
+
+2020-10-21 18:22:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BoodsKapper/a_Inspections Dashboard' is clicked on
+
+2020-10-21 18:22:39 - [TEST_STEP][PASSED] - switchToWindowTitle("Inspections Dashboard"): Switched to window with title: 'Inspections Dashboard'
+
+2020-10-21 18:22:41 - [MESSAGE][PASSED] - Switched to window with title: 'Inspections Dashboard'
+
+2020-10-21 18:22:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/a_Add Inspection")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/a_Add Inspection' is clicked on
+
+2020-10-21 18:22:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/a_Add Inspection' is clicked on
+
+2020-10-21 18:22:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931' is clicked on
+
+2020-10-21 18:22:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931' is clicked on
+
+2020-10-21 18:22:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931"), findTestData("Inspection_Data").getValue(1, 1)): Keys 'matclient@yopmail.com' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931'
+
+2020-10-21 18:22:43 - [MESSAGE][PASSED] - Keys 'matclient@yopmail.com' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931'
+
+2020-10-21 18:22:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931'
+
+2020-10-21 18:22:45 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931'
+
+2020-10-21 18:22:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Landlord")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord' is clicked on
+
+2020-10-21 18:22:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord' is clicked on
+
+2020-10-21 18:22:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Landlord"), findTestData("Inspection_Data").getValue(2, 1)): Keys 'matlandlord@yopmail.com' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:22:46 - [MESSAGE][PASSED] - Keys 'matlandlord@yopmail.com' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:22:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:22:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:22:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Landlord"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:22:48 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:22:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:22:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:22:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Landlord"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:22:49 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:22:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:22:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:22:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Landlord"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:22:51 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:22:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Unit_Address")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address' is clicked on
+
+2020-10-21 18:22:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address' is clicked on
+
+2020-10-21 18:22:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Unit_Address"), findTestData("Inspection_Data").getValue(4, 1)): Keys '1114' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address'
+
+2020-10-21 18:22:52 - [MESSAGE][PASSED] - Keys '1114' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address'
+
+2020-10-21 18:22:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:22:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:22:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Unit_Address"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address'
+
+2020-10-21 18:22:53 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address'
+
+2020-10-21 18:22:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:22:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:22:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Unit_Address"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address'
+
+2020-10-21 18:22:55 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address'
+
+2020-10-21 18:22:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Select_InspectionType"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Select_InspectionType' is clicked on
+
+2020-10-21 18:22:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Select_InspectionType' is clicked on
+
+2020-10-21 18:22:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:22:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:22:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/span_Housekeeping"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/span_Housekeeping' is clicked on
+
+2020-10-21 18:22:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/span_Housekeeping' is clicked on
+
+2020-10-21 18:22:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:22:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:22:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Method_listbox")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Method_listbox' is clicked on
+
+2020-10-21 18:22:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Method_listbox' is clicked on
+
+2020-10-21 18:22:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Virtual_method")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Virtual_method' is clicked on
+
+2020-10-21 18:22:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Virtual_method' is clicked on
+
+2020-10-21 18:22:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:23:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:23:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Inspections Dashboard/Inspection_Popup/From_date"), now): Text '10/21/2020' is set on object 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/From_date'
+
+2020-10-21 18:23:01 - [MESSAGE][PASSED] - Text '10/21/2020' is set on object 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/From_date'
+
+2020-10-21 18:23:01 - [TEST_STEP][PASSED] - deleteAllCookies(STOP_ON_FAILURE): Delete all cookies successfully
+
+2020-10-21 18:23:02 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2020-10-21 18:23:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Inspections Dashboard/Inspection_Popup/To_date"), now): Text '10/21/2020' is set on object 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/To_date'
+
+2020-10-21 18:23:03 - [MESSAGE][PASSED] - Text '10/21/2020' is set on object 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/To_date'
+
+2020-10-21 18:23:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Anytime_Radio")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Anytime_Radio' is clicked on
+
+2020-10-21 18:23:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Anytime_Radio' is clicked on
+
+2020-10-21 18:23:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Propose_Time_Button")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Propose_Time_Button' is clicked on
+
+2020-10-21 18:23:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Propose_Time_Button' is clicked on
+
+2020-10-21 18:23:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/TimeSlot_Radio")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/TimeSlot_Radio' is clicked on
+
+2020-10-21 18:23:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/TimeSlot_Radio' is clicked on
+
+2020-10-21 18:23:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Create_Button")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Create_Button' is clicked on
+
+2020-10-21 18:23:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Create_Button' is clicked on
+
+2020-10-21 18:23:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-21 18:23:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-21 18:23:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Date_Filter"), now): Keys '10/21/2020' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Date_Filter'
+
+2020-10-21 18:23:14 - [MESSAGE][PASSED] - Keys '10/21/2020' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Date_Filter'
+
+2020-10-21 18:23:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-21 18:23:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-21 18:23:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Unit_Address_Filter"), findTestData("Inspection_Data").getValue(4, 1)): Keys '1114' sent to object: 'Object Repository/Page_Inspections Dashboard/Unit_Address_Filter'
+
+2020-10-21 18:23:19 - [MESSAGE][PASSED] - Keys '1114' sent to object: 'Object Repository/Page_Inspections Dashboard/Unit_Address_Filter'
+
+2020-10-21 18:23:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Inspections Dashboard/Address_Field"), findTestData("Inspection_Data").getValue(5, 1)): Actual text and expected text of test object 'Object Repository/Page_Inspections Dashboard/Address_Field' are matched.
+
+2020-10-21 18:23:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Inspections Dashboard/Address_Field' are matched.
+
+2020-10-21 18:23:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-10-21 18:23:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-10-21 18:23:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-21 18:23:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-21 18:20:39 - [TEST_SUITE][PASSED] - Tests: Test Cases/Add_Inpection_Virtual]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

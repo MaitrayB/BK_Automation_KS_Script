@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Tests" time="160.356" tests="2" failures="1" errors="0">
+   <testsuite name="Tests" tests="2" failures="1" errors="0" time="160.356" timestamp="2020-10-21 18:13:24" hostname="Bhatt - 192.168.1.5" id="Test Suites/Tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Bhatt\\Katalon Studio\\Boodskapper_Web\\Reports\\20201021_181317\\Tests\\20201021_181317"/>
+         <property name="logFiles" value="C:\\Users\\Bhatt\\Katalon Studio\\Boodskapper_Web\\Reports\\20201021_181317\\Tests\\20201021_181317\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Bhatt\\Katalon Studio\\Boodskapper_Web\\Reports\\20201021_181317\\Tests\\20201021_181317\\1603284362141.png, C:\\Users\\Bhatt\\Katalon Studio\\Boodskapper_Web\\Reports\\20201021_181317\\Tests\\20201021_181317\\1603284362532.png"/>
+         <property name="hostName" value="Bhatt - 192.168.1.5"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.2.205"/>
+         <property name="browser" value="Chrome 86.0.4240.111"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="e6fded463220163f63b10c42244d06f9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Add_Inpection_Physical" time="79.043" classname="Test Cases/Add_Inpection_Physical" status="PASSED">
+         <system-out><![CDATA[2020-10-21 18:13:25 - [TEST_CASE][PASSED] - Test Cases/Add_Inpection_Physical: Test Cases/Add_Inpection_Physical
+
+2020-10-21 18:13:25 - [TEST_STEP][PASSED] - now = Date().format("MM/dd/yyyy"): null
+
+2020-10-21 18:13:25 - [TEST_STEP][PASSED] - println(now = $now): null
+
+2020-10-21 18:13:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-21 18:13:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-21 18:13:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-21 18:13:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-21 18:13:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-10-21 18:13:33 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-21 18:13:33 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://development.boodskapper.com/login' successfully
+
+2020-10-21 18:13:49 - [MESSAGE][PASSED] - Navigate to 'https://development.boodskapper.com/login' successfully
+
+2020-10-21 18:13:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_BoodsKapper/input_Customer Login_email"), Inspector_username): Text 'jeff.nelson@dhantx.com' is set on object 'Object Repository/Page_BoodsKapper/input_Customer Login_email'
+
+2020-10-21 18:13:50 - [MESSAGE][PASSED] - Text 'jeff.nelson@dhantx.com' is set on object 'Object Repository/Page_BoodsKapper/input_Customer Login_email'
+
+2020-10-21 18:13:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_BoodsKapper/input_Customer Login_password"), Inspector_password): Text 'Bk@12345' is set on object 'Object Repository/Page_BoodsKapper/input_Customer Login_password'
+
+2020-10-21 18:13:51 - [MESSAGE][PASSED] - Text 'Bk@12345' is set on object 'Object Repository/Page_BoodsKapper/input_Customer Login_password'
+
+2020-10-21 18:13:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_BoodsKapper/button_Login")): Object: 'Object Repository/Page_BoodsKapper/button_Login' is clicked on
+
+2020-10-21 18:13:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BoodsKapper/button_Login' is clicked on
+
+2020-10-21 18:13:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_BoodsKapper/a_Inspections Dashboard")): Object: 'Object Repository/Page_BoodsKapper/a_Inspections Dashboard' is clicked on
+
+2020-10-21 18:13:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BoodsKapper/a_Inspections Dashboard' is clicked on
+
+2020-10-21 18:13:58 - [TEST_STEP][PASSED] - switchToWindowTitle("Inspections Dashboard"): Switched to window with title: 'Inspections Dashboard'
+
+2020-10-21 18:14:00 - [MESSAGE][PASSED] - Switched to window with title: 'Inspections Dashboard'
+
+2020-10-21 18:14:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/a_Add Inspection")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/a_Add Inspection' is clicked on
+
+2020-10-21 18:14:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/a_Add Inspection' is clicked on
+
+2020-10-21 18:14:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931' is clicked on
+
+2020-10-21 18:14:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931' is clicked on
+
+2020-10-21 18:14:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931"), findTestData("Inspection_Data").getValue(1, 2)): Keys 'poonamcl@yopmail.com' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931'
+
+2020-10-21 18:14:03 - [MESSAGE][PASSED] - Keys 'poonamcl@yopmail.com' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931'
+
+2020-10-21 18:14:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931'
+
+2020-10-21 18:14:04 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931'
+
+2020-10-21 18:14:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Landlord")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord' is clicked on
+
+2020-10-21 18:14:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord' is clicked on
+
+2020-10-21 18:14:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Landlord"), findTestData("Inspection_Data").getValue(2, 2)): Keys 'poonamll@yopmail.com' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:14:05 - [MESSAGE][PASSED] - Keys 'poonamll@yopmail.com' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:14:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:14:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:14:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Landlord"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:14:07 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:14:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:14:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:14:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Landlord"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:14:08 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:14:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:14:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:14:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Landlord"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:14:10 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:14:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Unit_Address")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address' is clicked on
+
+2020-10-21 18:14:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address' is clicked on
+
+2020-10-21 18:14:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Unit_Address"), findTestData("Inspection_Data").getValue(4, 2)): Keys '4430' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address'
+
+2020-10-21 18:14:11 - [MESSAGE][PASSED] - Keys '4430' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address'
+
+2020-10-21 18:14:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:14:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:14:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Unit_Address"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address'
+
+2020-10-21 18:14:13 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address'
+
+2020-10-21 18:14:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:14:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:14:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Unit_Address"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address'
+
+2020-10-21 18:14:14 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address'
+
+2020-10-21 18:14:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Select_InspectionType"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Select_InspectionType' is clicked on
+
+2020-10-21 18:14:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Select_InspectionType' is clicked on
+
+2020-10-21 18:14:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:14:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:14:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/span_Housekeeping"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/span_Housekeeping' is clicked on
+
+2020-10-21 18:14:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/span_Housekeeping' is clicked on
+
+2020-10-21 18:14:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:14:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:14:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Method_listbox")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Method_listbox' is clicked on
+
+2020-10-21 18:14:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Method_listbox' is clicked on
+
+2020-10-21 18:14:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Physical_Method")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Physical_Method' is clicked on
+
+2020-10-21 18:14:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Physical_Method' is clicked on
+
+2020-10-21 18:14:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:14:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:14:20 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Inspections Dashboard/Inspection_Popup/From_date"), now): Text '10/21/2020' is set on object 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/From_date'
+
+2020-10-21 18:14:21 - [MESSAGE][PASSED] - Text '10/21/2020' is set on object 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/From_date'
+
+2020-10-21 18:14:21 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Inspections Dashboard/Inspection_Popup/To_date"), now): Text '10/21/2020' is set on object 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/To_date'
+
+2020-10-21 18:14:22 - [MESSAGE][PASSED] - Text '10/21/2020' is set on object 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/To_date'
+
+2020-10-21 18:14:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Anytime_Radio")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Anytime_Radio' is clicked on
+
+2020-10-21 18:14:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Anytime_Radio' is clicked on
+
+2020-10-21 18:14:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Propose_Time_Button")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Propose_Time_Button' is clicked on
+
+2020-10-21 18:14:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Propose_Time_Button' is clicked on
+
+2020-10-21 18:14:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/TimeSlot_Radio")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/TimeSlot_Radio' is clicked on
+
+2020-10-21 18:14:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/TimeSlot_Radio' is clicked on
+
+2020-10-21 18:14:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Create_Button")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Create_Button' is clicked on
+
+2020-10-21 18:14:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Create_Button' is clicked on
+
+2020-10-21 18:14:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-21 18:14:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-21 18:14:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Date_Filter"), now): Keys '10/21/2020' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Date_Filter'
+
+2020-10-21 18:14:33 - [MESSAGE][PASSED] - Keys '10/21/2020' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Date_Filter'
+
+2020-10-21 18:14:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-21 18:14:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-21 18:14:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Unit_Address_Filter"), findTestData("Inspection_Data").getValue(4, 2)): Keys '4430' sent to object: 'Object Repository/Page_Inspections Dashboard/Unit_Address_Filter'
+
+2020-10-21 18:14:38 - [MESSAGE][PASSED] - Keys '4430' sent to object: 'Object Repository/Page_Inspections Dashboard/Unit_Address_Filter'
+
+2020-10-21 18:14:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Inspections Dashboard/Address_Field"), findTestData("Inspection_Data").getValue(5, 2)): Actual text and expected text of test object 'Object Repository/Page_Inspections Dashboard/Address_Field' are matched.
+
+2020-10-21 18:14:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Inspections Dashboard/Address_Field' are matched.
+
+2020-10-21 18:14:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-10-21 18:14:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-10-21 18:14:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-21 18:14:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add_Inpection_Virtual" time="78.682" classname="Test Cases/Add_Inpection_Virtual" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Add_Inpection_Virtual FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Inspections Dashboard/Address_Field' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at Add_Inpection_Virtual.run(Add_Inpection_Virtual:116)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603284197224.run(TempTestSuite1603284197224.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '1118 HIGH HILL BLVD #B Dallas TX 75203' and expected text '1114 CHATTAHOOCHEE DR SAVANAH TX 76227' of test object 'Object Repository/Page_Inspections Dashboard/Address_Field' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-10-21 18:14:44 - [TEST_CASE][FAILED] - Test Cases/Add_Inpection_Virtual: Test Cases/Add_Inpection_Virtual FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Inspections Dashboard/Address_Field' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at Add_Inpection_Virtual.run(Add_Inpection_Virtual:116)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603284197224.run(TempTestSuite1603284197224.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '1118 HIGH HILL BLVD #B Dallas TX 75203' and expected text '1114 CHATTAHOOCHEE DR SAVANAH TX 76227' of test object 'Object Repository/Page_Inspections Dashboard/Address_Field' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-10-21 18:14:44 - [TEST_STEP][PASSED] - now = Date().format("MM/dd/yyyy"): null
+
+2020-10-21 18:14:44 - [TEST_STEP][PASSED] - println(now = $now): null
+
+2020-10-21 18:14:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-21 18:14:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-21 18:14:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-21 18:14:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-21 18:14:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-10-21 18:14:50 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-21 18:14:50 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://development.boodskapper.com/login' successfully
+
+2020-10-21 18:15:06 - [MESSAGE][PASSED] - Navigate to 'https://development.boodskapper.com/login' successfully
+
+2020-10-21 18:15:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_BoodsKapper/input_Customer Login_email"), Inspector_username): Text 'jeff.nelson@dhantx.com' is set on object 'Object Repository/Page_BoodsKapper/input_Customer Login_email'
+
+2020-10-21 18:15:07 - [MESSAGE][PASSED] - Text 'jeff.nelson@dhantx.com' is set on object 'Object Repository/Page_BoodsKapper/input_Customer Login_email'
+
+2020-10-21 18:15:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_BoodsKapper/input_Customer Login_password"), Inspector_password): Text 'Bk@12345' is set on object 'Object Repository/Page_BoodsKapper/input_Customer Login_password'
+
+2020-10-21 18:15:08 - [MESSAGE][PASSED] - Text 'Bk@12345' is set on object 'Object Repository/Page_BoodsKapper/input_Customer Login_password'
+
+2020-10-21 18:15:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_BoodsKapper/button_Login")): Object: 'Object Repository/Page_BoodsKapper/button_Login' is clicked on
+
+2020-10-21 18:15:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BoodsKapper/button_Login' is clicked on
+
+2020-10-21 18:15:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_BoodsKapper/a_Inspections Dashboard")): Object: 'Object Repository/Page_BoodsKapper/a_Inspections Dashboard' is clicked on
+
+2020-10-21 18:15:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BoodsKapper/a_Inspections Dashboard' is clicked on
+
+2020-10-21 18:15:15 - [TEST_STEP][PASSED] - switchToWindowTitle("Inspections Dashboard"): Switched to window with title: 'Inspections Dashboard'
+
+2020-10-21 18:15:17 - [MESSAGE][PASSED] - Switched to window with title: 'Inspections Dashboard'
+
+2020-10-21 18:15:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/a_Add Inspection")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/a_Add Inspection' is clicked on
+
+2020-10-21 18:15:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/a_Add Inspection' is clicked on
+
+2020-10-21 18:15:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931' is clicked on
+
+2020-10-21 18:15:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931' is clicked on
+
+2020-10-21 18:15:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931"), findTestData("Inspection_Data").getValue(1, 1)): Keys 'matclient@yopmail.com' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931'
+
+2020-10-21 18:15:21 - [MESSAGE][PASSED] - Keys 'matclient@yopmail.com' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931'
+
+2020-10-21 18:15:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931'
+
+2020-10-21 18:15:23 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931'
+
+2020-10-21 18:15:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Landlord")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord' is clicked on
+
+2020-10-21 18:15:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord' is clicked on
+
+2020-10-21 18:15:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Landlord"), findTestData("Inspection_Data").getValue(2, 1)): Keys 'matlandlord@yopmail.com' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:15:24 - [MESSAGE][PASSED] - Keys 'matlandlord@yopmail.com' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:15:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:15:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:15:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Landlord"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:15:25 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:15:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:15:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:15:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Landlord"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:15:27 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:15:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:15:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:15:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/input_Landlord"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:15:28 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/input_Landlord'
+
+2020-10-21 18:15:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Unit_Address")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address' is clicked on
+
+2020-10-21 18:15:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address' is clicked on
+
+2020-10-21 18:15:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Unit_Address"), findTestData("Inspection_Data").getValue(4, 1)): Keys '1114' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address'
+
+2020-10-21 18:15:30 - [MESSAGE][PASSED] - Keys '1114' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address'
+
+2020-10-21 18:15:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:15:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:15:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Unit_Address"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address'
+
+2020-10-21 18:15:31 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address'
+
+2020-10-21 18:15:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:15:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:15:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Unit_Address"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address'
+
+2020-10-21 18:15:33 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Unit_Address'
+
+2020-10-21 18:15:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Select_InspectionType"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Select_InspectionType' is clicked on
+
+2020-10-21 18:15:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Select_InspectionType' is clicked on
+
+2020-10-21 18:15:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:15:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:15:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/span_Housekeeping"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/span_Housekeeping' is clicked on
+
+2020-10-21 18:15:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/span_Housekeeping' is clicked on
+
+2020-10-21 18:15:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:15:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:15:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Method_listbox")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Method_listbox' is clicked on
+
+2020-10-21 18:15:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Method_listbox' is clicked on
+
+2020-10-21 18:15:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Virtual_method")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Virtual_method' is clicked on
+
+2020-10-21 18:15:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Virtual_method' is clicked on
+
+2020-10-21 18:15:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-10-21 18:15:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-10-21 18:15:38 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Inspections Dashboard/Inspection_Popup/From_date"), now): Text '10/21/2020' is set on object 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/From_date'
+
+2020-10-21 18:15:39 - [MESSAGE][PASSED] - Text '10/21/2020' is set on object 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/From_date'
+
+2020-10-21 18:15:39 - [TEST_STEP][PASSED] - deleteAllCookies(STOP_ON_FAILURE): Delete all cookies successfully
+
+2020-10-21 18:15:39 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2020-10-21 18:15:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Inspections Dashboard/Inspection_Popup/To_date"), now): Text '10/21/2020' is set on object 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/To_date'
+
+2020-10-21 18:15:40 - [MESSAGE][PASSED] - Text '10/21/2020' is set on object 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/To_date'
+
+2020-10-21 18:15:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Anytime_Radio")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Anytime_Radio' is clicked on
+
+2020-10-21 18:15:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Anytime_Radio' is clicked on
+
+2020-10-21 18:15:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Propose_Time_Button")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Propose_Time_Button' is clicked on
+
+2020-10-21 18:15:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Propose_Time_Button' is clicked on
+
+2020-10-21 18:15:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/TimeSlot_Radio")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/TimeSlot_Radio' is clicked on
+
+2020-10-21 18:15:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/TimeSlot_Radio' is clicked on
+
+2020-10-21 18:15:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_Inspections Dashboard/Inspection_Popup/Create_Button")): Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Create_Button' is clicked on
+
+2020-10-21 18:15:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Inspections Dashboard/Inspection_Popup/Create_Button' is clicked on
+
+2020-10-21 18:15:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-21 18:15:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-21 18:15:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Inspection_Date_Filter"), now): Keys '10/21/2020' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Date_Filter'
+
+2020-10-21 18:15:52 - [MESSAGE][PASSED] - Keys '10/21/2020' sent to object: 'Object Repository/Page_Inspections Dashboard/Inspection_Date_Filter'
+
+2020-10-21 18:15:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-21 18:15:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-21 18:15:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Inspections Dashboard/Unit_Address_Filter"), findTestData("Inspection_Data").getValue(4, 1)): Keys '1114' sent to object: 'Object Repository/Page_Inspections Dashboard/Unit_Address_Filter'
+
+2020-10-21 18:16:00 - [MESSAGE][PASSED] - Keys '1114' sent to object: 'Object Repository/Page_Inspections Dashboard/Unit_Address_Filter'
+
+2020-10-21 18:16:00 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Page_Inspections Dashboard/Address_Field"), findTestData("Inspection_Data").getValue(5, 1)): Verify element text of test object 'Object Repository/Page_Inspections Dashboard/Address_Field' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Inspections Dashboard/Address_Field' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at Add_Inpection_Virtual.run(Add_Inpection_Virtual:116)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603284197224.run(TempTestSuite1603284197224.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '1118 HIGH HILL BLVD #B Dallas TX 75203' and expected text '1114 CHATTAHOOCHEE DR SAVANAH TX 76227' of test object 'Object Repository/Page_Inspections Dashboard/Address_Field' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-10-21 18:16:02 - [MESSAGE][FAILED] - Actual text '1118 HIGH HILL BLVD #B Dallas TX 75203' and expected text '1114 CHATTAHOOCHEE DR SAVANAH TX 76227' of test object 'Object Repository/Page_Inspections Dashboard/Address_Field' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '1118 HIGH HILL BLVD #B Dallas TX 75203' and expected text '1114 CHATTAHOOCHEE DR SAVANAH TX 76227' of test object 'Object Repository/Page_Inspections Dashboard/Address_Field' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at Add_Inpection_Virtual.run(Add_Inpection_Virtual:116)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603284197224.run(TempTestSuite1603284197224.groovy:39)
+)
+[[ATTACHMENT|C:\\Users\\Bhatt\\Katalon Studio\\Boodskapper_Web\\Reports\\20201021_181317\\Tests\\20201021_181317\\1603284362141.png]]
+
+2020-10-21 18:16:02 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Page_Inspections Dashboard/Address_Field' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Inspections Dashboard/Address_Field' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at Add_Inpection_Virtual.run(Add_Inpection_Virtual:116)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603284197224.run(TempTestSuite1603284197224.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '1118 HIGH HILL BLVD #B Dallas TX 75203' and expected text '1114 CHATTAHOOCHEE DR SAVANAH TX 76227' of test object 'Object Repository/Page_Inspections Dashboard/Address_Field' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\Bhatt\\Katalon Studio\\Boodskapper_Web\\Reports\\20201021_181317\\Tests\\20201021_181317\\1603284362532.png]]]]></system-out>
+         <system-err><![CDATA[2020-10-21 18:14:44 - [TEST_CASE][FAILED] - Test Cases/Add_Inpection_Virtual: Test Cases/Add_Inpection_Virtual FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Inspections Dashboard/Address_Field' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at Add_Inpection_Virtual.run(Add_Inpection_Virtual:116)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603284197224.run(TempTestSuite1603284197224.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '1118 HIGH HILL BLVD #B Dallas TX 75203' and expected text '1114 CHATTAHOOCHEE DR SAVANAH TX 76227' of test object 'Object Repository/Page_Inspections Dashboard/Address_Field' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-21 18:13:24 - [TEST_SUITE][FAILED] - Tests: Test Cases/Add_Inpection_Virtual FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Inspections Dashboard/Address_Field' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at Add_Inpection_Virtual.run(Add_Inpection_Virtual:116)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603284197224.run(TempTestSuite1603284197224.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '1118 HIGH HILL BLVD #B Dallas TX 75203' and expected text '1114 CHATTAHOOCHEE DR SAVANAH TX 76227' of test object 'Object Repository/Page_Inspections Dashboard/Address_Field' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-10-21 18:13:24 - [TEST_SUITE][FAILED] - Tests: Test Cases/Add_Inpection_Virtual FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Inspections Dashboard/Address_Field' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at Add_Inpection_Virtual.run(Add_Inpection_Virtual:116)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603284197224.run(TempTestSuite1603284197224.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '1118 HIGH HILL BLVD #B Dallas TX 75203' and expected text '1114 CHATTAHOOCHEE DR SAVANAH TX 76227' of test object 'Object Repository/Page_Inspections Dashboard/Address_Field' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

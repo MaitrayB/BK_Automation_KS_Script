@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Tests,Chrome 86.0.4240.111,,,2020-10-21 18:11:17,2020-10-21 18:12:52,1m - 35.486s,FAILED
+,,,,,,,
+Test Cases/Add_Inpection_Physical,Chrome 86.0.4240.111,,,2020-10-21 18:11:18,2020-10-21 18:12:04,46.208s,FAILED
+"now = Date().format(""MM/dd/yyyy"")",Chrome 86.0.4240.111,,,2020-10-21 18:11:18,2020-10-21 18:11:18,0.045s,PASSED
+println(now = $now),Chrome 86.0.4240.111,,,2020-10-21 18:11:18,2020-10-21 18:11:19,0.196s,PASSED
+"openBrowser("""")",Chrome 86.0.4240.111,Browser opened,,2020-10-21 18:11:19,2020-10-21 18:11:25,6.280s,PASSED
+maximizeWindow(),Chrome 86.0.4240.111,Browser window maximized,,2020-10-21 18:11:25,2020-10-21 18:11:27,2.242s,PASSED
+navigateToUrl(URL),Chrome 86.0.4240.111,Navigated to application URL,,2020-10-21 18:11:27,2020-10-21 18:11:43,16.249s,PASSED
+"setText(findTestObject(""Object Repository/Page_BoodsKapper/input_Customer Login_email""), Inspector_username)",Chrome 86.0.4240.111,Enter Username,,2020-10-21 18:11:43,2020-10-21 18:11:45,1.294s,PASSED
+"setText(findTestObject(""Object Repository/Page_BoodsKapper/input_Customer Login_password""), Inspector_password)",Chrome 86.0.4240.111,Enter Password,,2020-10-21 18:11:45,2020-10-21 18:11:46,1.015s,PASSED
+"click(findTestObject(""Object Repository/Page_BoodsKapper/button_Login""))",Chrome 86.0.4240.111,Click on login button,,2020-10-21 18:11:46,2020-10-21 18:11:46,0.643s,PASSED
+"click(findTestObject(""Object Repository/Page_BoodsKapper/a_Inspections Dashboard""))",Chrome 86.0.4240.111,Click on Inspection Dashboard link,,2020-10-21 18:11:46,2020-10-21 18:11:53,6.571s,PASSED
+"switchToWindowTitle(""Inspections Dashboard"")",Chrome 86.0.4240.111,Switch to inspection dashboard tab,,2020-10-21 18:11:53,2020-10-21 18:11:55,2.252s,PASSED
+"click(findTestObject(""Page_Inspections Dashboard/Inspection_Popup/a_Add Inspection""))",Chrome 86.0.4240.111,Click on Add Inspection button,,2020-10-21 18:11:55,2020-10-21 18:11:56,1.322s,PASSED
+"click(findTestObject(""Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931""))",Chrome 86.0.4240.111,,,2020-10-21 18:11:56,2020-10-21 18:11:57,0.680s,PASSED
+"sendKeys(findTestObject(""Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931""), findTestData(""Inspection_Data"").getValue(1, 2))",Chrome 86.0.4240.111,Enter client email,,2020-10-21 18:11:57,2020-10-21 18:11:58,0.860s,PASSED
+"sendKeys(findTestObject(""Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931""), Keys.chord(ARROW_DOWN))",Chrome 86.0.4240.111,Selected client,,2020-10-21 18:11:58,2020-10-21 18:11:59,1.010s,PASSED
+"click(findTestObject(""Page_Inspections Dashboard/Inspection_Popup/input_Landlord""))",Chrome 86.0.4240.111,,,2020-10-21 18:11:59,2020-10-21 18:12:04,4.808s,FAILED
+,,,,,,,
+Test Cases/Add_Inpection_Virtual,Chrome 86.0.4240.111,,,2020-10-21 18:12:04,2020-10-21 18:12:52,48.593s,FAILED
+"now = Date().format(""MM/dd/yyyy"")",Chrome 86.0.4240.111,,,2020-10-21 18:12:05,2020-10-21 18:12:05,0.001s,PASSED
+println(now = $now),Chrome 86.0.4240.111,,,2020-10-21 18:12:05,2020-10-21 18:12:05,0.001s,PASSED
+"openBrowser("""")",Chrome 86.0.4240.111,,,2020-10-21 18:12:05,2020-10-21 18:12:09,4.524s,PASSED
+maximizeWindow(),Chrome 86.0.4240.111,,,2020-10-21 18:12:09,2020-10-21 18:12:11,2.204s,PASSED
+navigateToUrl(URL),Chrome 86.0.4240.111,,,2020-10-21 18:12:11,2020-10-21 18:12:23,11.684s,PASSED
+"setText(findTestObject(""Object Repository/Page_BoodsKapper/input_Customer Login_email""), Inspector_username)",Chrome 86.0.4240.111,,,2020-10-21 18:12:23,2020-10-21 18:12:24,1.071s,PASSED
+"setText(findTestObject(""Object Repository/Page_BoodsKapper/input_Customer Login_password""), Inspector_password)",Chrome 86.0.4240.111,,,2020-10-21 18:12:24,2020-10-21 18:12:25,0.941s,PASSED
+"click(findTestObject(""Object Repository/Page_BoodsKapper/button_Login""))",Chrome 86.0.4240.111,,,2020-10-21 18:12:25,2020-10-21 18:12:26,0.573s,PASSED
+"click(findTestObject(""Object Repository/Page_BoodsKapper/a_Inspections Dashboard""))",Chrome 86.0.4240.111,,,2020-10-21 18:12:26,2020-10-21 18:12:31,5.105s,PASSED
+"switchToWindowTitle(""Inspections Dashboard"")",Chrome 86.0.4240.111,,,2020-10-21 18:12:31,2020-10-21 18:12:33,2.305s,PASSED
+"click(findTestObject(""Page_Inspections Dashboard/Inspection_Popup/a_Add Inspection""))",Chrome 86.0.4240.111,,,2020-10-21 18:12:33,2020-10-21 18:12:34,1.197s,PASSED
+"click(findTestObject(""Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931""))",Chrome 86.0.4240.111,,,2020-10-21 18:12:34,2020-10-21 18:12:35,0.537s,PASSED
+"sendKeys(findTestObject(""Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931""), findTestData(""Inspection_Data"").getValue(1, 1))",Chrome 86.0.4240.111,,,2020-10-21 18:12:35,2020-10-21 18:12:35,0.735s,PASSED
+"sendKeys(findTestObject(""Page_Inspections Dashboard/Inspection_Popup/input_Client Name_completer-input form-cont_f62931""), Keys.chord(ARROW_DOWN))",Chrome 86.0.4240.111,,,2020-10-21 18:12:35,2020-10-21 18:12:36,0.969s,PASSED
+"click(findTestObject(""Page_Inspections Dashboard/Inspection_Popup/input_Landlord""))",Chrome 86.0.4240.111,,,2020-10-21 18:12:36,2020-10-21 18:12:37,0.588s,PASSED
+"sendKeys(findTestObject(""Page_Inspections Dashboard/Inspection_Popup/input_Landlord""), findTestData(""Inspection_Data"").getValue(2, 1))",Chrome 86.0.4240.111,,,2020-10-21 18:12:37,2020-10-21 18:12:38,0.758s,PASSED
+delay(1),Chrome 86.0.4240.111,,,2020-10-21 18:12:38,2020-10-21 18:12:39,1.053s,PASSED
+"sendKeys(findTestObject(""Page_Inspections Dashboard/Inspection_Popup/input_Landlord""), Keys.chord(BACK_SPACE))",Chrome 86.0.4240.111,,,2020-10-21 18:12:39,2020-10-21 18:12:39,0.561s,PASSED
+delay(1),Chrome 86.0.4240.111,,,2020-10-21 18:12:39,2020-10-21 18:12:40,1.006s,PASSED
+"sendKeys(findTestObject(""Page_Inspections Dashboard/Inspection_Popup/input_Landlord""), Keys.chord(BACK_SPACE))",Chrome 86.0.4240.111,,,2020-10-21 18:12:40,2020-10-21 18:12:41,0.509s,PASSED
+delay(1),Chrome 86.0.4240.111,,,2020-10-21 18:12:41,2020-10-21 18:12:42,1.011s,PASSED
+"sendKeys(findTestObject(""Page_Inspections Dashboard/Inspection_Popup/input_Landlord""), Keys.chord(ARROW_DOWN))",Chrome 86.0.4240.111,,,2020-10-21 18:12:42,2020-10-21 18:12:42,0.493s,PASSED
+"click(findTestObject(""Page_Inspections Dashboard/Inspection_Popup/Unit_Address""))",Chrome 86.0.4240.111,,,2020-10-21 18:12:42,2020-10-21 18:12:43,0.569s,PASSED
+"sendKeys(findTestObject(""Page_Inspections Dashboard/Inspection_Popup/Unit_Address""), findTestData(""Inspection_Data"").getValue(4, 1))",Chrome 86.0.4240.111,,,2020-10-21 18:12:43,2020-10-21 18:12:44,0.666s,PASSED
+delay(1),Chrome 86.0.4240.111,,,2020-10-21 18:12:44,2020-10-21 18:12:45,1.019s,PASSED
+"sendKeys(findTestObject(""Page_Inspections Dashboard/Inspection_Popup/Unit_Address""), Keys.chord(BACK_SPACE))",Chrome 86.0.4240.111,,,2020-10-21 18:12:45,2020-10-21 18:12:45,0.494s,PASSED
+delay(1),Chrome 86.0.4240.111,,,2020-10-21 18:12:45,2020-10-21 18:12:46,1.016s,PASSED
+"sendKeys(findTestObject(""Page_Inspections Dashboard/Inspection_Popup/Unit_Address""), Keys.chord(ARROW_DOWN))",Chrome 86.0.4240.111,,,2020-10-21 18:12:46,2020-10-21 18:12:47,0.461s,PASSED
+"click(findTestObject(""Page_Inspections Dashboard/Inspection_Popup/Select_InspectionType""), STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-21 18:12:47,2020-10-21 18:12:47,0.701s,PASSED
+delay(1),Chrome 86.0.4240.111,,,2020-10-21 18:12:47,2020-10-21 18:12:48,1.014s,PASSED
+"click(findTestObject(""Page_Inspections Dashboard/Inspection_Popup/span_Housekeeping""), STOP_ON_FAILURE)",Chrome 86.0.4240.111,,,2020-10-21 18:12:48,2020-10-21 18:12:49,0.514s,PASSED
+delay(1),Chrome 86.0.4240.111,,,2020-10-21 18:12:49,2020-10-21 18:12:50,1.010s,PASSED
+"click(findTestObject(""Page_Inspections Dashboard/Inspection_Popup/Method_listbox""))",Chrome 86.0.4240.111,,,2020-10-21 18:12:50,2020-10-21 18:12:50,0.595s,PASSED
+"click(findTestObject(""Page_Inspections Dashboard/Inspection_Popup/Virtual_method""))",Chrome 86.0.4240.111,,,2020-10-21 18:12:50,2020-10-21 18:12:51,0.530s,PASSED
+delay(1),Chrome 86.0.4240.111,,,2020-10-21 18:12:51,2020-10-21 18:12:52,1.004s,PASSED
+"setText(findTestObject(""Page_Inspections Dashboard/Inspection_Popup/From_date""), now)",Chrome 86.0.4240.111,,,2020-10-21 18:12:52,2020-10-21 18:12:52,0.483s,FAILED

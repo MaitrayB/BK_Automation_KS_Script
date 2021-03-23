@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Bob_RFTA</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>7c261ee1-3971-49bc-9479-05686a73ef72</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>First+Name Jithin</data>
+   <data>Last+Name testing</data>
+   <data>Email jithin1%40bk.com</data>
+   <data>Street tester0007</data>
+   <data>House 102</data>
+   <data>City Dallas</data>
+   <data>ZipCode 75216</data>
+   <data>File_Path C%3A%5CUsers%5CBhatt%5CDownloads%5Ctest.pdf</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Filed_Name</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>Filed_Value</name>
+      <size>8</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

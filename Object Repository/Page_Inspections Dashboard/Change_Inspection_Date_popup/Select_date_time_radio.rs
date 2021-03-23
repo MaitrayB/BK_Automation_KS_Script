@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Select_date_time_radio</name>
+   <tag></tag>
+   <elementGuidId>5bc21eb3-abd8-484a-9215-c08883a87096</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/ngb-modal-window[1]/div[1]/div[1]/app-change-date[1]/div[2]/div[1]/div[3]/div[1]/label[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>
